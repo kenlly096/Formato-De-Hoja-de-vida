@@ -1,0 +1,65 @@
+.Santiago-bautista {
+    width: 250px;
+    height: 200px;
+    border-radius: 350px;
+}
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background: #f5f5f5;
+  padding: 35px;
+}
+
+.contenedor {
+  display: flex;          
+  gap: 20px;              
+  max-width: 1700px;
+  margin: auto;
+}
+
+.columna {
+  flex: 1;               
+  background: lightgrey;
+  padding: 30px;
+  border: 1px solid black; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.foto {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+h2 {
+  background: #333;
+  color: white;
+  padding: 5px;
+  font-size: clamp(18px, 2vw, 22px);  
+  margin-top: 15px;
+  font-weight: bold; 
+}
+
+
+p {
+  font-size: clamp(14px, 1.5vw, 18px); 
+  margin: 6px 0;
+  font-weight: normal; 
+  color: #222;
+}
+
+
+.info-label {
+  font-size: 1rem;     
+  font-weight: bold;   
+  display: block;
+  margin-bottom: 3px;
+  color: #111;
+}
+
+.info-value {
+  font-size: 0.9rem;   
+  font-weight: normal; 
+  color: #444;
+}
